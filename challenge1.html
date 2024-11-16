@@ -2,16 +2,35 @@
 <html>
     <head>
         <meta charset="utf-8">
-                <title>HTML: IMAGES</title>
+                <title>CSS basics</title>
+
+                <style>
+                    h2 {
+                        color:blueviolet
+                    }
+                    body {
+                        background-color: yellowgreen;
+                    }
+                    h1 {
+                        color: blue;
+                    }
+                    .sunshine_song {
+                        background-color: beige;
+                    }
+                    #info_about_sunshine {
+                        background-color: goldenrod;
+                    }
+                </style>
     </head>
     <BODY>
 
+        <!-- Hello Humans! -->
         <h1>All about Sunshine</h1>
 
         <img src="https://images.pexels.com/photos/301599/pexels-photo-301599.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Sunshine photo that shows how it sets" width="300" height="200"/>
 
 
-        <h2>Reasons why i love to sing the sunshine song</h2>
+        <h2 id="info_about_sunshine">Reasons why i love to sing the sunshine song</h2>
 
         <ul>
             <li>The moon interchanges with it</li>
@@ -27,28 +46,31 @@
             <li>Gets me to remember how beautiful the sun is and how it shines</li>
             </ol>
             
-        <h2>Why i love to sing the sunshine song</h2>
+        <!--h2>Why i love to sing the sunshine song</h2>
 
         <p>Sunshine means everything to me thats why i sing this song every night to <strong>my little girl before she goes to sleep</strong>, <em>though it makes her cry</em></p>
 
         <h2> introductory song</h2>
 
-        <p>You are my sunshine <br>
+        <!-- These Lyrics are from here https://www.letras.com/christina-perri/you-are-my-sunshine/#google_vignette -->
+        <p class="sunshine_song">You are my sunshine <br>
             My only sunshine <br>
             You make me happy <br>
             When skies are gray <br>
             You'll never know, dear <br>
             How much I love you <br>
             Please don't take <br>
-            My sunshine away <br>
-            The other night, dear <br>
+            My sunshine away </p>
+
+           <p class="sunshine_song">The other night, dear <br>
             As I lay sleeping <br>
             I dreamed I held you <br>
             In my arms <br>
             When I awoke, dear <br>
             I was mistaken <br>
-            So I hung my head and cried <br>
-            You are my sunshine <br>
+            So I hung my head and cried </p>
+
+            <p class="sunshine_song">You are my sunshine <br>
             My only sunshine <br>
             You make me happy <br>
             When skies are gray <br>
