@@ -61,6 +61,9 @@
             font-size: 20px;
             font-style: inherit
         }
+        .trial {
+            background: rgb(red, green, blue);
+        }
 
         .Header {
             background-color: black;
@@ -97,13 +100,40 @@
             text-overflow: ellipsis;
             text-decoration: dotted;
             font-weight: bolder;
-
+        }
+        #run {
+            background: palegoldenrod;
+            width: 70%;
+            height: 200px;
+            overflow: auto;
         }
         .stand {
             color: forestgreen;
+        }.Tag {
+            color:red;
+            text-decoration: double;
+            font-weight: bolder;
         }
+        #sever {
+            width: 2000;
+            margin-bottom: 20px;
+            border: 10px dashed pink;
+            border-bottom: 8px solid blueviolet;
+            overflow-y: auto;
+            padding-left: 12px; 
+        }
+        #front {
+            float: left;
+            margin-left: 6px;
+        }
+        #All {
+            text-align: center;
+            border: 2px solid red;
+            border-top: 10px solid goldenrod;
+        }
+
     </style>
-    <h1 class="Reason"> <a href="https://blog.hubspot.com/website/website-development"></a>Why is web development important?</h1>
+    <div id="All"><h1 class="Reason"> <a href="https://blog.hubspot.com/website/website-development"></a>Why is <span class="Tag">Web development</span> important?</h1>
 
     <h2 class="info"> Can you believe that we're part of a world where over 5.30 billion people are <br>
         connected through the Internet? That's more than half of our global population <br>
@@ -133,7 +163,7 @@
         A web programmer will rarely, if ever, handle a web development project from end to end.<br> 
         They may build a certain section of a site or troubleshoot bugs.<br>
     </p>
-    <h3>Web Development Basics</h3>
+   <div id="trial"> <h3>Web Development Basics</h3>
     <ol>
         <li><a href="#website">What is a website?</a></li>
         <li><a href="#IP">What is an IP address?</a></li>
@@ -150,6 +180,7 @@
     Browsers are computer programs that load websites via your Internet connection, <br>
     such as Google Chrome or Internet Explorer, while the computers used to access these websites are known as "clients.
     <P><a href="https://en.wikipedia.org/wiki/Website">For more info about website click</a></P>
+</div>
 </p>
     <h3 id="IP">What is an IP address?</h3>
     <p class="zino">I was always fascinated by how the Internet knows where to send data.<br>
@@ -177,7 +208,7 @@
         <P><a href="https://en.wikipedia.org/wiki/HTTP">For more info about HTTP click</a></P>
     </p>
     <h3 id="Front-end">What does front-end mean?"</h3>
-    <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/rlyhImnUkmQdKdHtL1GNv/868953ec7fa50ec9f913bc455c821951/iStock-800334746_super.jpg?w=1500&h=680&q=60&fit=fill&f=faces&fm=jpg&fl=progressive&auto=format%2Ccompress&dpr=2&w=1000" alt="Coding" width="600" height="300"/> <br>
+    <img id="front" src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/rlyhImnUkmQdKdHtL1GNv/868953ec7fa50ec9f913bc455c821951/iStock-800334746_super.jpg?w=1500&h=680&q=60&fit=fill&f=faces&fm=jpg&fl=progressive&auto=format%2Ccompress&dpr=2&w=1000" alt="Coding" width="600" height="300"/> <br>
     <p class="end">Front-end (or client-side) is the side of a website or software that you see and interact with as an Internet user. <br>
         When website information is transferred from a server to a browser, front-end coding languages allow the website to<br>
         function without having to continually “communicate” with the Internet.Front-end code allows users to interact<br>
@@ -186,8 +217,8 @@
         <P><a href="https://roadmap.sh/frontend#:~:text=Frontend%20frameworks%20are%20collections%20of,Angular%2C%20and%20Vue.js.">For more info about front-end click</a></P>
     </p>
 
-    <h3 id="back">What does front-end mean?</h3>
-    <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/Backend_Development.gif" alt="Coding" width="600" height="300"/> <br>
+    <div id="run"><h3 id="back">What does front-end mean?</h3>
+    <img id="sever" src="https://www.simplilearn.com/ice9/free_resources_article_thumb/Backend_Development.gif" alt="Coding" width="600" height="300"/> <br>
     <p class="back">"On the contrary, the back-end (or server-side) is the side that you don’t see when you use the Internet. <br>
         It’s the digital infrastructure, and to non-developers, it looks like a bunch of numbers, letters, and symbols.<br>
         There are more back-end coding languages than front-end languages. That’s because browsers — at the front-end — only <br>
@@ -196,6 +227,8 @@
     </h3>
 
     <P><a href="https://blog.hubspot.com/website/website-development">About the this was developed from</a></P>
+</div>
+</div>
 </body>
 
 </html>
